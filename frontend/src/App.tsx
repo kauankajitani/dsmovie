@@ -5,7 +5,7 @@ import {
 } from "react-router-dom";
 import Listing from 'pages/Listing';
 import Form from 'pages/Form';
-import Navbar from "C:/Projetos/dsmovies/frontend/src/components/NavBar";
+import Navbar from "components/NavBar";
 
 function App() {
   return (
