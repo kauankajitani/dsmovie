@@ -7,7 +7,7 @@ import javax.persistence.ManyToOne;
 
 @Embeddable
 
-public class ScorePk implements Serializable {
+public class ScorePK implements Serializable {
 	/**
 	 * 
 	 */
@@ -20,7 +20,7 @@ public class ScorePk implements Serializable {
 	@JoinColumn(name = "user_id")
 	
 	private User user;
-	public ScorePk() {
+	public ScorePK(){
 	}
 	
 	public Movie getMovie() {

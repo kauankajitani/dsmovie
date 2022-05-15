@@ -19,6 +19,9 @@ public class User {
 		this.id = id;
 		this.email = email;
 	}
+	public User() {
+		// TODO Auto-generated constructor stub
+	}
 	public Long getId() {
 		return id;
 	}

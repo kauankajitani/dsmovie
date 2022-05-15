@@ -9,14 +9,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.devsuperior.dsmovies.dto.MovieDTO;
-import com.devsuperior.dsmovies.services.MovieServices;
+import com.devsuperior.dsmovies.services.MovieService;
 
 @RestController
 @RequestMapping(value = "/movies")
 public class MovieControllers {
 	
 	@Autowired
-	private MovieServices service;
+	private MovieService service;
 	
 	
 	@GetMapping
